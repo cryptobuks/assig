@@ -17,7 +17,7 @@ $(document).ready(function(){
             $error = true;
         }
 
-        if(!$error && !($in_username == 'admin' && $in_password == '123456')) {
+        if(!$error && !($in_username == 'ask' && $in_password == '123456')) {
              $message += "Username and password you entered are not correct";
             $error = true;
         } 

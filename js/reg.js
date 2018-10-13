@@ -34,7 +34,7 @@ $(document).ready(function(){
 			return false;
 			}
 		if(name && pass && email && add){
-			alert("Bạn đã đăng ký thành công với Username : "+ name +" Password: "+pass);
+			alert("you have sucessfully signed up for Username : "+ name +" Password: "+pass);
 			}					
 		})
 	})
